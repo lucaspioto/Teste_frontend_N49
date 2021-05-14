@@ -261,6 +261,7 @@
   margin-top: 8px;
   margin-right: 4px;
   width: 64px;
+  cursor: pointer;
 }
 
 .sabores ul {
@@ -280,6 +281,7 @@
 
 .sabores img {
   width: 48px;
+  cursor: pointer;
 }
 
 .frete {
@@ -323,12 +325,24 @@
   outline: none;
 }
 
-.frete .calcular {
-  transform: translate(142px, -27px);
+.calcular {
+  transform: translate(132px, -37px);
   color: #fff;
+  background-color: transparent;
+  border: hidden;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 300;
 }
 
 .cep {
   padding-top: 10px;
 }
+
+.separador {
+  width: 61%;
+  transform: translateY(20px);
+}
+
+
 
