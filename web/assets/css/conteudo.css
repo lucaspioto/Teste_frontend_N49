@@ -194,7 +194,7 @@
 
 .quantidade {
   margin: 0;
-  margin-top: 25px;
+  margin-top: 120px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -223,7 +223,7 @@
 
 .botao-quantidade {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 10px;
   height: 40px;
   background-color: #fff;
   border-radius: 5px;
@@ -233,7 +233,7 @@
 
 .botao-comprar {
   height: 40px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 24px;
   text-transform: uppercase;
@@ -246,12 +246,89 @@
 
 .botao-comprar:hover {
   background-color: var(--color-default);
-  color: var(--color-secundary);
+  color: #fff;
 }
 
 .linha-produto {
   clear: both;
 }
 
+.amostras li {
+  display: inline;
+}
 
+.amostras img {
+  margin-top: 8px;
+  margin-right: 4px;
+  width: 64px;
+}
+
+.sabores ul {
+  display: flex;
+  width: 281px;
+  height: 74px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.sabores p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.sabores img {
+  width: 48px;
+}
+
+.frete {
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.frete .icon-frete {
+  width: 20px;
+  transform: translateY(3px);
+}
+
+.btn {
+  position: relative;
+  background: #fff;
+  width: 209px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.frete input {
+  border: #ccc 1px solid;
+  text-indent: 15px;
+}
+
+.frete input:focus {
+  outline: none;
+  border: var(--color-default) 1px solid;
+}
+
+.calc::after {
+  content: '';
+  position: absolute;
+  background: var(--color-default);
+  width: 100%;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  left: 60%;
+  outline: none;
+}
+
+.frete .calcular {
+  transform: translate(142px, -27px);
+  color: #fff;
+}
+
+.frete .cep {
+  padding-top: 10px;
+}
 
