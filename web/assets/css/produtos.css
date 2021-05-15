@@ -80,12 +80,14 @@
   border-radius: 5px;
   margin-top: 16px;
   font-weight: 300;
+  cursor: pointer;
 }
 
 .ver-mais {
   color: var(--color-default);
   margin-top: 20px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .ver-mais img {
