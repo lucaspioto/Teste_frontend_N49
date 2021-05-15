@@ -59,7 +59,7 @@
 }
 
 .img-principal {
-  margin-top: 16px;
+  margin: 16px 0 0 0;
 }
 
 .produto .subtitulo-1 {
@@ -293,6 +293,7 @@
 .frete .icon-frete {
   width: 20px;
   transform: translateY(3px);
+  cursor: text;
 }
 
 .btn {
@@ -344,5 +345,15 @@
   transform: translateY(20px);
 }
 
+.share {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 0 49%;
+  font-weight: 300;
+}
 
+.icon-share {
+  margin-left: 8px;
+  cursor: pointer;
+}
 

@@ -1,0 +1,50 @@
+.descricao {
+  margin-left: 32px;
+}
+
+.descricao-h2 {
+  margin-top: 40px;
+}
+
+.descricao h2 {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+
+.icon-descricao {
+  padding-right: 8px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.descricao-subtitulo li {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-default);
+  display: inline;
+  text-decoration: underline;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.text-descricao {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.dicas {
+  list-style-type: disc;
+}
+
+.dicas:first-child {
+  margin-top: 24px;
+}
