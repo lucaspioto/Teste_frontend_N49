@@ -1,0 +1,97 @@
+.title-product {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-secundary);
+  margin: 50px 0 24px 0;
+}
+
+.list-produtos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.produtos-itens {
+  width: 225px;
+}
+
+.list-produtos h4 {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--color-default);
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.img-legend {
+  color: var(--color-black);
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.preco {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 37px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.parcelas {
+  color: var(--color-black);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.parc-bold {
+  font-weight: 400;
+}
+
+.frete-gratis {
+  margin-top: 10px;
+  color: var(--color-default);
+  font-size: 14px;
+}
+
+.sobre-2 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.preco-desconto {
+  font-size: 14px;
+  color: #979797;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+.add-bag {
+  height: 52px;
+  width: 225px;
+  border: none;
+  background-color: var(--color-default);
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-top: 16px;
+  font-weight: 300;
+}
+
+.ver-mais {
+  color: var(--color-default);
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.ver-mais img {
+  margin-left: 4px;
+}
+
+.mouse {
+  transform: translate(80px, 10px);
+}
