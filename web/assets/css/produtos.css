@@ -14,6 +14,20 @@
 
 .produtos-itens {
   width: 225px;
+  position: relative;
+}
+
+.produtos-itens .btn-desconto {
+  background-color: #E9004C;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  width: 45px;
+  height: 29px;
+  position: absolute;
+  right: 0;
+  margin: 4px;
 }
 
 .list-produtos h4 {
