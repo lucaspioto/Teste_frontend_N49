@@ -46,4 +46,28 @@
   align-items: center;
 }
 
+.nav-list {
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-secundary);
+  font-weight: 300;
+  font-size: 14px;
+}
 
+.nav-seta {
+  margin-right: 20px;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.nav-bag {
+  margin-right: 10px;
+  align-items: center;
+  transform: translateY(5px);
+}
+
+.nav-item {
+  margin-bottom: 8px;
+}
