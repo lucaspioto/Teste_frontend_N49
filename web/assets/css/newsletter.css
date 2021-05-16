@@ -1,0 +1,64 @@
+.disc {
+  list-style-type: disc;
+  font-size: 10px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news-list a {
+  font-size: 14px;
+  color: var(--color-default);
+  vertical-align: middle;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.news-list {
+  margin-left: 15px;
+}
+
+.news-input {
+  display: block;
+  width: 386px;
+  height: 37px;
+  outline: none;
+  border-radius: 5px;
+  border: #ccc 1px solid;
+  text-indent: 15px;
+  margin-top: 8px;
+}
+
+.news-input:focus {
+  border: 1px solid var(--color-default);
+}
+
+.newsletter p {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.newsletter .cadastro {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.btn-news {
+  width: 386px;
+  height: 37px;
+  color: #fff;
+  border: none;
+  background-color: var(--color-default);
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+.coluna-3 {
+  margin-top: 50px;
+}
