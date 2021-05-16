@@ -24,6 +24,11 @@
 
 .img-face {
   margin-right: 40px;
+  cursor: pointer;
+}
+
+.img-insta {
+  cursor: pointer;
 }
 
 .logo-footer {
