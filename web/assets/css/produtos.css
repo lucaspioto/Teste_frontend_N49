@@ -9,6 +9,7 @@
 .list-produtos {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .produtos-itens {
@@ -21,12 +22,14 @@
   color: var(--color-default);
   margin-top: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .img-legend {
   color: var(--color-black);
   margin-top: 10px;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .preco {

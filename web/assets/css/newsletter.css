@@ -57,6 +57,7 @@
   background-color: var(--color-default);
   margin-top: 8px;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .coluna-3 {
