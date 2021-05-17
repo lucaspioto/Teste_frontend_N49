@@ -285,7 +285,7 @@
 }
 
 .frete {
-  margin-top: 25px;
+  margin-top: 35px;
   display: inline-block;
   font-size: 14px;
 }
@@ -338,6 +338,7 @@
 
 .cep {
   padding-top: 10px;
+  margin-bottom: -30px;
 }
 
 .separador {
@@ -356,4 +357,3 @@
   margin-left: 8px;
   cursor: pointer;
 }
-
