@@ -199,24 +199,22 @@
   font-weight: 300;
 }
 
-.botao-quantidade::before {
+.btn-sub{
   content: "";
-  padding: 19px 16px;
+  padding: 8px 8px;
   border-right: 1px solid #ccc;
   position: absolute;
-  background: no-repeat url(/assets/images/conteudo/botao-sub.svg);
-  transform: translate(-85px, -10px);
+  transform: translate(2px, 10px);
   background-position: left;
   cursor: pointer;
 }
 
-.botao-quantidade::after {
+.btn-add {
   content: "";
-  padding: 19px 20px;
+  padding: 8px 8px;
   border-left: 1px solid #ccc;
   position: absolute;
-  transform: translate(50px, -10px);
-  background: url(/assets/images/conteudo/botao-add.svg) no-repeat;
+  transform: translate(-42px, 10px);
   background-position: center;
   cursor: pointer;
 }
